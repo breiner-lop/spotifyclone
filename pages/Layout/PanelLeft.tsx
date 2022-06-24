@@ -7,8 +7,8 @@ const PanelLeft = () => {
       <Link href="/"><div className="max-w-[131px] cursor-pointer">{spotigyLogo}</div></Link>
       {/*** first seption */}
       <ul className="mt-9 text-sm text-gray-default">
-        <li className="hover:text-white mb-4 transition duration-300">
-            <Link href="/" passHref><a className="flex items-center">{homeIcon}<span className="ml-4">Inicio</span></a></Link>
+        <li className="text-white mb-4 transition duration-300">
+            <Link href="/" passHref><a className="flex items-center ">{homeIcon}<span className="ml-4">Inicio</span></a></Link>
         </li>
         <li className="hover:text-white mb-4 transition duration-300">
             <Link href="/" passHref><a className="flex items-center">{searchIcon}<span className="ml-4">Buscar</span></a></Link>

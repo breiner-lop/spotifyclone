@@ -3,7 +3,6 @@ import getChannelById from "../../Controllers/getChannelById";
 import { useRouter } from 'next/router';
 import { apiUrl } from "../../globalVaribles";
 import axios from "axios";
-import Image from "next/image";
 import { useCtx } from "../../contexts/context";
 import { reproducirIcon } from "../../public/Svgs";
 
@@ -53,9 +52,9 @@ const Chanel = () => {
     })
     
     
-    },[])
+    },[router])
     return (
-        <div className="bg-[#121212] h-screen overflow-y-scroll scrollbarBrown">
+        <div className="bg-[#121212] h-screen overflow-y-scroll scrollbarBrown" id="scrollcontainer">
           {channel&&
            <div className="">
            {/** @ts-ignore */}

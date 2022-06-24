@@ -48,13 +48,12 @@ a {
 }
 
 .scrollbarBrown::-webkit-scrollbar-thumb {
-  background-color: #8c8c8c;
+  background-color: #5a5a5a;
 }
 
 .scrollbarBrown::-webkit-scrollbar-track {
   border-radius: 10px;  
-  background-color: #5a5a5a;
 }
 .mejs-controls .mejs-time-rail .mejs-time-total {
-  background: #369 !important;
+  background: #5a5a5a !important;
 }
