@@ -8,7 +8,7 @@ import { useRouter } from 'next/router';
 
 const NavTop = () => {
     const router=useRouter()
-    const [scrollDown,setScrollDown]=useState(true)
+    const [scrollDown,setScrollDown]=useState(false)
             //trackScrolling
             let lastScroll:number=0
             const trackScrolling=()=>{
